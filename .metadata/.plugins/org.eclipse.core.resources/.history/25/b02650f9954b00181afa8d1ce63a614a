@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<input type="radio" name="Fire" value=>
+<input type="radio" name="Road Accident" value=>
+</body>
+</html>

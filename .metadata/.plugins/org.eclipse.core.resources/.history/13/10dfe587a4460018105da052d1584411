@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Success">
+
+<table align="center">
+<tr><th colspan="2">EMERGENCY MANAGEMENT SYSTEM VOLUNTEER LOG IN</th></tr>
+<tr><td>User ID : <input type="text" name="email"></td></tr><br>
+<tr><td>Password : <input type="password" name="password"></td></tr><br>
+<tr><td colspan="2"><input type="submit" value="Login"></td></tr>
+
+</table>
+</form> 
+
+</body>
+</html>

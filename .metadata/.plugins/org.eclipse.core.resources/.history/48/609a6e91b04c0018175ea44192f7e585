@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="mystyle.css"> 
+</head>
+<body>
+
+<form action="Acknowledgement">
+<center>
+<h1>EMERGENCY HOUR !  PROVIDE US THE INFORMATION ...</h1>
+</center>
+<h2>CHOOSE LOCATION</h2>
+<select name="locatio">
+  <option value="">select location</option>
+  <option value="10.1234,50.1234">Salt Lake</option>
+  <option value="20.1234,60.1234">Gariahat</option>
+  <option value="30.1234,70.1234">Shyambazar</option>
+</select> <br><br>
+<h2>SELECT A EMERGENCY SITUATION</h2>
+<input type="radio" name="accidentType" value="msp101">Fire<br>
+<input type="radio" name="accidentType" value="msp102">Road Accident<br><br>
+
+<input type="submit" value="SUBMIT" onclick="popup()" style="color: slateblue">
+<script>
+function popup(){
+	alert("Thank You");
+}
+</script>
+
+
+</form>
+
+</body>
+</html>

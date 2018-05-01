@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<input type="radio" name="msp101" value="msp101">Fire<br>
+<input type="radio" name="msp102" value="msp102">Road Accident<br>
+
+<input type="submit" value="Alert">
+</body>
+</html>

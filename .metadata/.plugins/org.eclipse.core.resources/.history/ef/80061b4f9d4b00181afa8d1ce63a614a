@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="Acknowledgement">
+<select name="location">
+  <option value="loc101">New York</option>
+  <option value="loc102">Singapore</option>
+  <option value="loc103">Bejing</option>
+</select> <br><br>
+
+<input type="radio" name="accidentType" value="msp101">Fire<br>
+<input type="radio" name="accidentType" value="msp102">Road Accident<br><br>
+
+<input type="submit" value="Alert">
+</form>
+
+</body>
+</html>

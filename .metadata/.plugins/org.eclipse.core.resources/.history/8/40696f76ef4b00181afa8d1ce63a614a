@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="mystyle.css"> 
+</head>
+<body>
+<form action="success1">
+<center>
+<h1>EMERGENCY MANAGEMENT SYSTEM VOLUNTEER LOG IN</h1>
+</center>
+
+<div class="box">
+
+<div class="inputBox">
+ <input type="text" name="email">
+ <lebel>Username</lebel>
+ </div>
+<div  class="inputBox">
+ <input type="password" name="password">
+  <lebel>Password</lebel>
+</div>
+
+<input type="submit" value="Login">
+</div>
+</form> 
+
+</body>
+</html>

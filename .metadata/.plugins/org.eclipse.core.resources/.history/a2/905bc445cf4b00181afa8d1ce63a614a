@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="Acknowledgement">
+<center>
+<h1>FILL UP THE PAGE</h1>
+</center>
+<h2>CHOOSE LOCATION</h2>
+<select name="location">
+  <option value="22.579956,88.437950">Salt Lake</option>
+  <option value="22.5170,88.3658">Gariahat</option>
+  <option value="22.5982,88.3687">Shyambazar</option>
+</select> <br><br>
+<h2>SELECT A EMERGENCY SITUATION</h2>
+<input type="radio" name="accidentType" value="msp101">Fire<br>
+<input type="radio" name="accidentType" value="msp102">Road Accident<br><br>
+
+<input type="submit" value="Alert">
+
+alert("Thank you for raising concern.")
+
+</form>
+
+</body>
+</html>

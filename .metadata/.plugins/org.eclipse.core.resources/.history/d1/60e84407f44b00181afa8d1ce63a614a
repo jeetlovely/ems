@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+body{
+    background-image: url("https://1.bp.blogspot.com/-WkBHI0N4J8A/Tkn3YordzyI/AAAAAAAAHHA/oduEMTlT_aQ/s1600/emergency+help+3d+characters+stock+photo.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+}
+h1{
+	color:red;
+}
+select{
+	cursor:pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-o-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+	
+	display:block;
+	margin:30px 0;
+	padding:10px 50px 10px 10px;
+	background-color:#ff8080;
+	color:#ffff80;
+	border-radius:4px;
+	border:2px solid #fff;
+	width:250px;
+}
+h2{
+	color:
+}
+.box{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:400px;
+	padding:40px;
+	background:rgba(0,0,0,.8);
+	box-sizing:border-box;
+	box-shadow:0 15px 25px rgba(0,0,0,.5);
+	border-radius:10px;
+}
+.box .inputBox{
+	position:relative;
+}
+.box .inputBox input{
+	width:100%;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	margin-bottom:30px;
+	border:none;
+	border-bottom:1px solid #fff;
+	outline:none;
+	background:transparent;
+}
+.box .inputBox label{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	pointer-events:none;
+	transition:.5s;
+	
+}
+.box .inputBox input:focus~label,
+.box .inputBox input:focus~label{
+	top:-18px;
+	left:0;
+	color:#03a9f4;
+	font-size:12px;
+}
+.box input[type="submit"]{
+	background:transparent;
+	border:none;
+	outline:none;
+	color:#fff;
+	background:#03a9f4;
+	padding:10px 20px;
+	cursor:pointer;
+	border:5px;
+	
+	
+}

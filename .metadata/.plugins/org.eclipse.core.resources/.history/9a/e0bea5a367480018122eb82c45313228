@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="success1">
+
+<table align="center">
+<tr><th colspan="2">PLACE OF INCIDENT</th></tr>
+
+<select>
+  <option value="garia">GARIA</option>
+  <option value="newgaria">NEW GARIA</option>
+  <option value="dumdum">DUMDUM</option>
+  <option value="belghoria">BELGHORIA</option>
+  <option value="jadavpur">JADAVPUR</option>
+  <option value="kasba">KASBA</option>
+</select>
+  
+<tr><td>Password : <input type="password" name="password"></td></tr><br>
+<tr><td colspan="2"><input type="submit" value="Login"></td></tr>
+
+</table>
+</form> 
+
+</body>
+</html>

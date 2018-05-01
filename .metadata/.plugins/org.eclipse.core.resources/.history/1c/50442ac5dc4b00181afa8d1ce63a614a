@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+body{
+    background-image: url("Images/04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+	color:red;
+}
+select{
+	cursor:pointer;
+	color:#565656;
+}

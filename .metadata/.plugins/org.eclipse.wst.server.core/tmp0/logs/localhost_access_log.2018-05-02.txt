@@ -1,0 +1,17 @@
+127.0.0.1 - - [02/May/2018:00:06:14 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:06:17 +0530] "GET /EmergencyManagement/userpage.html HTTP/1.1" 200 1465
+127.0.0.1 - - [02/May/2018:00:31:22 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:31:23 +0530] "GET /EmergencyManagement/userpage.html HTTP/1.1" 200 1492
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:31:36 +0530] "GET /EmergencyManagement/Acknowledgement?ocation=--Select+Location--&accidentType=msp101 HTTP/1.1" 200 105
+127.0.0.1 - - [02/May/2018:00:33:04 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:33:05 +0530] "GET /EmergencyManagement/userpage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:33:46 +0530] "GET /EmergencyManagement/userpage.html HTTP/1.1" 200 1479
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:33:48 +0530] "GET /EmergencyManagement/userpage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:33:48 +0530] "GET /EmergencyManagement/mystyle.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:34:31 +0530] "GET /EmergencyManagement/userpage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:37:34 +0530] "GET /EmergencyManagement/userpage.html HTTP/1.1" 200 1481
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:37:35 +0530] "GET /EmergencyManagement/userpage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:37:35 +0530] "GET /EmergencyManagement/mystyle.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:43:10 +0530] "GET /EmergencyManagement/userpage.html HTTP/1.1" 200 1475
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:43:11 +0530] "GET /EmergencyManagement/mystyle.css HTTP/1.1" 200 1612
+0:0:0:0:0:0:0:1 - - [02/May/2018:00:43:12 +0530] "GET /favicon.ico HTTP/1.1" 404 1016

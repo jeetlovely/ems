@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+body{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+	color:red;
+}
+select{
+	cursor:pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-o-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+	
+	display:block;
+	margin:30px 0;
+	padding:10px 50px 10px 10px;
+	background-color:#ff8080;
+	color:#ffff80;
+	border-radius:4px;
+	border:2px solid #fff;
+	width:250px;
+}

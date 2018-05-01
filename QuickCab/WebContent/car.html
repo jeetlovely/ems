@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+function UseAjax(){
+	//alert("under function");
+	
+	var x=new XMLHttpRequest();
+	x.onreadystatechange=function(){
+		if(x.readyState==4 && x.status==200){
+			document.getElementById("mid").innerHTML=x.responseText;
+		}
+	}
+	x.open("GET","registration.html",true);
+	x.send();
+}
+
+
+</script>
+</head>
+<body>
+<form>
+<input type="button" onclick="UseAjax()" value="New User">
+</form>
+<div id="mid"></div>
+</body>
+</html>

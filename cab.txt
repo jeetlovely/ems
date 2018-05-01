@@ -1,0 +1,98 @@
+-- This CLP file was created using DB2LOOK Version "9.7" 
+-- Timestamp: 7/25/2017 12:46:18 PM
+-- Database Name: CLOUD          
+-- Database Manager Version: DB2/NT Version 9.7.0          
+-- Database Codepage: 1252
+-- Database Collating Sequence is: UNIQUE
+
+
+CONNECT TO CLOUD;
+
+------------------------------------------------
+-- DDL Statements for table "COMPU   "."GARAGE"
+------------------------------------------------
+ 
+
+CREATE TABLE "COMPU   "."GARAGE"  (
+		  "ID" VARCHAR(10) NOT NULL , 
+		  "ADDRESS" VARCHAR(10) NOT NULL , 
+		  "MAIL" VARCHAR(10) NOT NULL , 
+		  "CONTACT" VARCHAR(10) NOT NULL , 
+		  "PASS" VARCHAR(10) NOT NULL )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "COMPU   "."CARHEAVEN"
+------------------------------------------------
+ 
+
+CREATE TABLE "COMPU   "."CARHEAVEN"  (
+		  "CARS" VARCHAR(20) NOT NULL , 
+		  "STATUS" VARCHAR(20) NOT NULL , 
+		  "CARID" VARCHAR(20) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "COMPU   "."ROUTE"
+------------------------------------------------
+ 
+
+CREATE TABLE "COMPU   "."ROUTE"  (
+		  "PLACE" VARCHAR(30) NOT NULL , 
+		  "COST" VARCHAR(1000) NOT NULL , 
+		  "RID" VARCHAR(10) NOT NULL )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "COMPU   "."ADMINCAR"
+------------------------------------------------
+ 
+
+CREATE TABLE "COMPU   "."ADMINCAR"  (
+		  "EMAIL" VARCHAR(20) NOT NULL , 
+		  "EPASS" VARCHAR(20) NOT NULL , 
+		  "EID" VARCHAR(20) NOT NULL )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+
+
+
+
+
+
+COMMIT WORK;
+
+CONNECT RESET;
+
+TERMINATE;
+
+-- Specified SCHEMA is: COMPU
+-- The db2look utility will consider only the specified tables 
+-- Creating DDL for table(s)
+
+-- Schema name is ignored for the Federated Section
+-- Binding package automatically ... 
+-- Bind is successful
+-- Binding package automatically ... 
+-- Bind is successful
+;
